@@ -1,0 +1,22 @@
+main {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.list-container #starships-list {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.list-container #starships-list thead {
+  text-align: left;
+}
+
+.list-container #starships-list thead th {
+  border-bottom: 1px solid goldenrod;
+  cursor: pointer;
+}

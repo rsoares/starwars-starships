@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Starships</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>🚀 Star Wars Starships 🚀</h1>
+      <div class="search-container">
+        <label for="search-box">
+          Starship name:
+          <input type="text" name="search" id="search-box" placeholder="e.g.: republic cruiser"/>
+        </label>
+      </div>
+      <div class="list-container">
+        <table id="starships-list">
+          <thead>
+            <th id="by-name">Name</th>
+            <th id="by-model">Model</th>
+            <th id="by-length">Length</th>
+            <th id="by-cost">Cost</th>
+          </thead>
+        </table>
+      </div>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

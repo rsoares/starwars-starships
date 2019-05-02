@@ -1,0 +1,15 @@
+{
+  "name": "beerlist",
+  "version": "1.0.0",
+  "description": "Listing of Star Wars starships.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ --port 8080"
+  },
+  "author": "Ricardo Soares",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
